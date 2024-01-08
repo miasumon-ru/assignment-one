@@ -11,6 +11,7 @@ body {
     margin: 0px auto;
     background-repeat: no-repeat;
     border-radius: 10px;
+    background-size: cover;
 
 }
 
@@ -43,13 +44,15 @@ body {
     margin: 0 auto;
     text-align: center;
 }
-.first-section-column{
+
+.first-section-column {
     /* padding: 50px; */
 
 }
+
 .first-section-column-title {
     color: #F00;
-   
+
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
@@ -58,7 +61,7 @@ body {
 
 .first-section-column-content-small {
     color: #F00;
-   
+
     font-family: Inter;
     font-size: 15px;
     font-weight: 500;
@@ -72,4 +75,43 @@ body {
     font-size: 40px;
     font-weight: 700;
 
+}
+
+/* second section starts */
+
+.second-section-container {
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-color: green;
+    margin: 50px auto;
+    max-width: 1320px;
+    padding: 50px 0px 50px 50px;
+    background-size: cover;
+}
+
+.second-section-title {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+
+}
+
+.second-section-content {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.8;
+
+}
+
+.second-section-btn {
+    text-color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-left: 30px;
 }
