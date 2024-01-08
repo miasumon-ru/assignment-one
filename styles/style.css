@@ -1,0 +1,36 @@
+/* common shared styles */
+body {
+    font-family: 'Merriweather', serif;
+}
+
+/* header starts */
+
+.header-banner {
+    max-width: 1320px;
+    background-image: url('../resources/Banner\ Image.png');
+    margin: 0px auto;
+    background-repeat: no-repeat;
+
+}
+.banner-content{
+    padding: 100px 200px 300px 300px ;
+    max-width: 630px;
+    max-height: 190px;
+    margin: 0 auto;
+}
+
+.header-small-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+
+}
+
+.header-big-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+
+}
