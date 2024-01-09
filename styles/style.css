@@ -12,7 +12,7 @@ body {
     background-repeat: no-repeat;
     border-radius: 10px;
     background-size: cover;
-    background-image: linear-gradient(to right rgb(12, 9, 9) rgb(11, 9, 9));
+   linear-gradient:(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 
 }
 
@@ -84,6 +84,14 @@ body {
     max-width: 1320px;
     padding: 50px 0px 50px 50px;
     background-size: cover;
+    display: flex;
+    gap: 400px;
+    linear-gradient:(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+}
+.second-section-img img{
+    max-width: 400px;
+    max-height: 300px;
 }
 
 .second-section-title {
@@ -160,7 +168,7 @@ body {
 /* fourth section starts */
 
 .fourth-section-container {
-    /* background-color: green; */
+
     display: flex;
     max-width: 1320px;
     margin: 50px auto;
@@ -201,6 +209,7 @@ body {
 .fourth-section-column-img {
     border: 10px solid red;
     border-radius: 50%;
+    padding: 10px;
 }
 
 .fourth-section-column-content-right-big {
@@ -314,4 +323,76 @@ body {
     background-color: red;
     color: white;
     border: 0;
+}
+
+/* footer starts */
+.footer{
+    background-color: #070211;
+    margin: 50px 0;
+}
+.footer-container {
+    background-color: #070211;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+.footer-column{
+    margin: 30px 0;
+}
+.footer-column-content-container {
+    display: flex;
+    gap: 700px;
+
+}
+
+.footer-column-content {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+
+}
+
+.footer-column-content img {
+    margin-bottom: -5px;
+    padding: 0 10px;
+}
+
+.footer-column-content-right {}
+
+.footer-column-social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-column-social-links img {
+    max-width: 44px;
+    max-height: 44px;
+}
+
+.footer-last-content-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-last-content-left {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+
+
+}
+
+.footer-last-content-right {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;  
+}
+hr{
+    opacity: 0.1;
 }
