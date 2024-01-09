@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat;
     border-radius: 10px;
     background-size: cover;
+    background-image: linear-gradient(to right rgb(12, 9, 9) rgb(11, 9, 9));
 
 }
 
@@ -164,8 +165,9 @@ body {
     max-width: 1320px;
     margin: 50px auto;
     justify-content: space-around;
-    padding: 28px;
     align-items: center;
+    justify-content: start;
+    gap: 150px;
 }
 
 .fourth-section-column-content .small {
@@ -182,6 +184,7 @@ body {
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
 
 }
 
@@ -207,5 +210,46 @@ body {
     font-size: 48px;
     font-weight: 700;
 
+
+}
+
+/* fifth section starts */
+
+.fifth-section-column-container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+.fifth-sectlion-column{
+    margin: 35px 0;
+}
+.fifth-section-column-content-small{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}.fifth-section-column-content-big{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.fifth-section-column-content-smaller{
+
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.fifth-section-img-container{
+    display: flex;
+    gap: 20px;
+}
+.fifth-section-img-container img:hover{
+    border: 3px solid rgb(250, 8, 8);
+    border-radius: 15px;
 
 }
